@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Styled" parent="@style/Theme.AppCompat.Light">
+        <!-- Setting values in the default namespace affects API levels 7-11 -->
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <!-- Setting values in the default namespace affects API levels 7-11 -->
+        <!--<item name="background">@drawable/ab_custom_solid_styled</item>
+        <item name="backgroundStacked">@drawable/ab_custom_stacked_solid_styled</item>
+        <item name="backgroundSplit">@drawable/ab_custom_bottom_solid_styled</item>-->
+    </style>
+</resources>

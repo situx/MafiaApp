@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<players>
+    <player playerid="5c049ab2-011d-4da7-ae0e-c271ca48f10f" name="Guy" firstname="Mafia" total="2">
+        <game id="1" points="2" character="Mafia" />
+    </player>
+</players>

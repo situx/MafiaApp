@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                      xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/linearLayout1"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" app:layout_gravity="center_horizontal|top" android:minWidth="50dp"
+            android:minHeight="50dp" android:layout_marginRight="0dp"
+            android:maxHeight="100dp" android:maxWidth="100dp" android:adjustViewBounds="true"
+            app:layout_column="0" app:layout_columnSpan="1" app:layout_row="0" app:layout_rowSpan="2"/>
+    <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/CharChooseTextView" app:layout_gravity="center_horizontal|top"
+            app:layout_column="1" app:layout_columnSpan="1" app:layout_row="0" app:layout_rowSpan="2"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonStyleSmall"
+            android:id="@+id/charViewEditCharBTN" app:layout_gravity="center_horizontal|left|top"
+            android:text="@string/edit" android:gravity="fill_horizontal" app:layout_column="2"
+            app:layout_columnSpan="1" app:layout_row="0" app:layout_rowSpan="1"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remove"
+            android:id="@+id/deleteCharButton" app:layout_column="2" app:layout_columnSpan="1"
+            app:layout_row="1" app:layout_rowSpan="1"/>
+
+</android.support.v7.widget.GridLayout>

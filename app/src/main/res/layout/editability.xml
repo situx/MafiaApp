@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView">
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                      xmlns:app="http://schemas.android.com/apk/res-auto"
+              app:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" app:columnCount="2">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abilityDescription"
+            android:id="@+id/abilityDescriptionTextView" app:layout_column="0" app:layout_columnSpan="2"
+            app:layout_row="0"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editAbilityDescription" android:inputType="text" app:layout_column="0"
+            app:layout_columnSpan="2" app:layout_row="1"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/active"
+            android:id="@+id/editAbilityActiveCB" app:layout_column="0" app:layout_columnSpan="1"
+            app:layout_row="2"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mustuse"
+            android:id="@+id/editAbilityMustUseCB" app:layout_gravity="center_horizontal|left"
+            app:layout_column="0" app:layout_columnSpan="1" app:layout_row="3"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editAbilityKillingCheckBox" app:layout_column="0" app:layout_row="4"
+            android:text="@string/killingability" app:layout_columnSpan="1"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/counterkillingability"
+            android:id="@+id/editAbilityCounterKillingCheckBox" app:layout_column="0" app:layout_row="5"
+            app:layout_columnSpan="1"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abilityondead"
+            android:id="@+id/editAbilityOnDead" app:layout_column="0" app:layout_columnSpan="1"
+            app:layout_row="6"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/permanent"
+            android:id="@+id/editAbilityPermanentEffect" app:layout_column="0" app:layout_columnSpan="1"
+            app:layout_row="7"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/self"
+            android:id="@+id/editAbilitySelfUse" app:layout_column="0" app:layout_row="8"
+            app:layout_columnSpan="1"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switchchar"
+            android:id="@+id/editAbilitySwitchChar" app:layout_column="0" app:layout_columnSpan="1"
+            app:layout_row="9"/>
+    <RadioGroup
+            android:id="@+id/radioRound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:layout_column="0" app:layout_columnSpan="1"
+            app:layout_row="10">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/everyRound"
+            android:id="@+id/everyRoundradioButton"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/limitedAmount"
+            android:id="@+id/limitedAmountRadioButton"/>
+    </RadioGroup>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editAbilityImgView" android:src="@drawable/title" app:layout_column="1"
+            app:layout_columnSpan="1" app:layout_row="2" app:layout_gravity="center"
+            app:layout_rowSpan="9" android:contentDescription="@string/abilityImg"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abilityAmount"
+            android:id="@+id/abilityAmountTextView" app:layout_column="0" app:layout_columnSpan="2"
+            app:layout_row="11"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editAbilityAmount" android:inputType="numberSigned" app:layout_column="0"
+            app:layout_columnSpan="2" app:layout_row="12"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/availableFrom"
+            android:id="@+id/abilityAvailabilityTextView" app:layout_column="0" app:layout_columnSpan="2"
+            app:layout_row="13"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editAbilityAvailableFrom" app:layout_column="0" app:layout_columnSpan="2"
+            app:layout_row="14"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/availableUntil"
+            android:id="@+id/AbilityAvailabilityTextView2" app:layout_column="0" app:layout_columnSpan="2"
+            app:layout_row="15"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editAbilityAvailableUntil" app:layout_column="0" app:layout_columnSpan="2"
+            app:layout_row="16"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/concerns"
+            android:id="@+id/abilityConcernsTextView" app:layout_row="17" app:layout_column="0"
+            app:layout_columnSpan="2"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editAbilityConcerns" app:layout_row="18" app:layout_column="0" app:layout_columnSpan="2"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/duration"
+            android:id="@+id/abilityDurationTextView" app:layout_row="19" app:layout_column="0"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editAbilityDuration" app:layout_row="20" app:layout_column="0"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abilitydelay"
+            android:id="@+id/editAbilityDelayText" app:layout_row="21" app:layout_column="0"
+            app:layout_columnSpan="2"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            app:layout_column="0" app:layout_columnSpan="2"
+            app:layout_row="22" android:id="@+id/editAbilityDelay"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/probability"
+            android:id="@+id/probablityTextView" app:layout_column="0" app:layout_columnSpan="2"
+            app:layout_row="23"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editAbilityProb" android:singleLine="true" android:numeric="integer|signed"
+            app:layout_column="0" app:layout_columnSpan="2" app:layout_row="24"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switchnewchar"
+            android:id="@+id/editAbilitySwitchNewCharText" app:layout_row="25"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editAbilitySwitchNewChar" app:layout_row="26" android:inputType="numberSigned"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changegroup"
+            android:id="@+id/editAbilityChangeGroupText" app:layout_row="27"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editAbilityChangeGroup" app:layout_row="28" android:inputType="numberSigned"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saveability"
+            android:id="@+id/saveAbilityButton" app:layout_column="0" app:layout_columnSpan="2"
+            app:layout_row="29"/>
+</android.support.v7.widget.GridLayout>
+</ScrollView>

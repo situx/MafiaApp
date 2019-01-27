@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets>
+    <preset name="Mafia Basic" player="9">
+        <description>A basic set of characters for Mafia</description>
+        <card amount="1">c6a5492b-d6bc-4f1c-b4ab-2f008804b113</card>
+        <card amount="1">c481f5c5-79ab-43e6-8a84-035c8323ac4d</card>
+        <card amount="1">87d0cb39-fd39-455a-9a85-2912f52addb4</card>
+        <card amount="1">d05b5f35-c2a6-4ad9-b5f5-120ea6641d22</card>
+        <card amount="1">33957485-e746-439f-88a0-fdcb176214c5</card>
+        <card amount="1">eaeb6109-ab1d-4e7c-a6ef-a3028c342091</card>
+        <card amount="3">bad493d8-b73b-40a2-a201-57056406842a</card>
+    </preset>
+</presets>

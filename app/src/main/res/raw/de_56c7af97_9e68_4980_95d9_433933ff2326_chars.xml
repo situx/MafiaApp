@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gameset gamesetid="56c7af97-9e68-4980-95d9-433933ff2326" language="de" title="Mafia" fromPlayers="0" toPlayers="0" img="de_mafia" backimg="back">
+    <introtext introtitle="Beginn der Nachtphase">Es wird Nacht, alle Spieler schlafen ein.</introtext>
+    <outrotext outrotitle="Ende der Nachtphase">Der Tag bricht an.</outrotext>
+    <Karte cardid="974eb0b3-b907-4dad-92aa-a1cbaf826773" name="Seelenretter" group="B" round="0" img=" " minamount="1" maxamount="1" position="0" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">In jeder Nacht darf sich der Seelenretter eine Person aussuchen, die er besch&#252;tzen will. Diese Person kann nachts von der Mafia nicht get&#246;tet werden.</description>
+</Karte>
+<Karte cardid="c6a5492b-d6bc-4f1c-b4ab-2f008804b113" name="Doktor" group="B" round="0" img=" " minamount="1" maxamount="1" position="1" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Doktor kann jede Nacht eine Person vor der ersten T&#246;tung besch&#252;tzen. Wird der Besch&#252;tzte von mehr als einer Gruppierung in der Nacht get&#246;tet, stirbt er. Der Doktor kann sich nicht selbst besch&#252;tzen.</description>
+</Karte>
+<Karte cardid="c481f5c5-79ab-43e6-8a84-035c8323ac4d" name="Anwalt" group="B" round="0" img=" " minamount="1" maxamount="1" position="2" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Anwalt sucht sich in der Nacht eine Person aus die er verteidigen will. Am Tag kann nicht mehr gegen diese Person gew&#228;hlt werden.</description>
+</Karte>
+<Karte cardid="87d0cb39-fd39-455a-9a85-2912f52addb4" name="Barkeeper" group="M" round="0" img=" " minamount="1" maxamount="1" position="2" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Barkeeper kann einer Person in der Nacht seine/ihre F&#228;higkeit untersagen.</description>
+</Karte>
+<Karte cardid="0bfed9e9-ce07-4c51-ab3d-efc71b185116" name="Gef&#228;ngnisw&#228;rter" group="B" round="0" img=" " minamount="1" maxamount="1" position="2" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Gef&#228;ngsnisw&#228;rter sperrt in jeder Nacht eine Person in seine Zelle. Diese Person kann in der Nacht nicht get&#246;tet werden und keine F&#228;higkeiten aus&#252;ben.</description>
+</Karte>
+<Karte cardid="d05b5f35-c2a6-4ad9-b5f5-120ea6641d22" name="Kuppler" group="B" round="1" img=" " minamount="1" maxamount="1" position="2" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Kuppler sucht in der ersten Nacht die beiden Verliebten aus. Wird einer der beiden get&#246;tet, stirbt auch der andere.</description>
+</Karte>
+<Karte cardid="33957485-e746-439f-88a0-fdcb176214c5" name="Wunderheiler" group="B" round="0" img=" " minamount="1" maxamount="1" position="3" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Wunderheiler kann jede Nacht eine Person besch&#252;tzen. Leider gelingt dies nur mit einer Wahrscheinlichkeit von 50%. Der Spielleiter kann dies durch w&#252;rfeln ermitteln.</description>
+</Karte>
+<Karte cardid="eaeb6109-ab1d-4e7c-a6ef-a3028c342091" name="Psychater" group="B" round="0" img=" " minamount="1" maxamount="1" position="4" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Psychater sucht jede Nacht nach dem Massenm&#246;rder. Findet er ihn, so wird er ihn heilen und der Massenm&#246;rder wird zu einem normalen Dorfbewohner.</description>
+</Karte>
+<Karte cardid="bad493d8-b73b-40a2-a201-57056406842a" name="Mafiosi" group="M" round="0" img=" " minamount="2" maxamount="-1" position="5" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Die Mafiosi erwachen und suchen sich ein Opfer.</description>
+</Karte>
+    <Karte cardid="bad493d8-b73b-40a2-a201-57056406842a" name="Orakel" group="U" round="0" img=" " minamount="2" maxamount="-1" position="5" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+        <description lang="de">Das Orakel kann einmal pro Runde eine Frage an den Spielleiter stellen. Dieser muss mittels 2 Worten antworten. Es liegt im Ermessen des Spielleiters welche Fragen er akzeptiert.</description>
+    </Karte>
+    <Karte cardid="bad493d8-b73b-40a2-a201-57056406842a" name="Waffenschmied" group="B" round="0" img=" " minamount="2" maxamount="-1" position="5" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+        <description lang="de">Der Waffenschmied sucht sich eine Person aus von der er erfährt ob diese die Fähigkeit des Tötens besitzt.</description>
+    </Karte>
+<Karte cardid="80b03fd0-ba33-48a7-82e9-136e29c575f2" name="Massenm&#246;rder" group="MM" round="0" img=" " minamount="1" maxamount="1" position="6" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Massenm&#246;rder spielt alleine und muss es schaffen sowohl die Mafiosi als auch die B&#252;rger zu t&#246;ten um zu gewinnen. Er kann jede Nacht einen Mitspieler umbringen.</description>
+</Karte>
+<Karte cardid="7c9a4094-9efd-4730-96fb-c0d631741d61" name="Terrorist" group="M" round="-1" img=" " minamount="1" maxamount="1" position="7" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Terrorist kann sich am Tag opfern und einen beliebigen anderen Spieler mit in den Tod rei&#223;en. Er spielt auf Seiten der Mafia.</description>
+</Karte>
+<Karte cardid="5b183ee1-6562-4a07-9d8d-c89ef25be0e8" name="Voyeur" group="U" round="0" img=" " minamount="1" maxamount="1" position="8" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der W&#228;chter erf&#228;hrt von einer Person, welche Aktionen auf ihr ausgef&#252;hrt wurden, aber nicht von wem..</description>
+</Karte>
+<Karte cardid="d803e1ca-ec9f-4139-90f0-4f6272871b8d" name="W&#228;chter" group="B" round="0" img=" " minamount="1" maxamount="1" position="9" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der W&#228;chter erf&#228;hrt von einer Person, von welchen Personen sie in der Nacht mit Aktionen versehen wurde.</description>
+</Karte>
+<Karte cardid="e969c1f3-d39e-48dc-b445-8d5add5d360b" name="Anh&#228;nger" group="B" round="0" img=" " minamount="1" maxamount="1" position="10" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Anh&#228;nger erwacht am Ende der Nacht und erf&#228;hrt die Aktion die eine von ihm gew&#228;hlte Person in der Nacht ausgef&#252;hrt hat.</description>
+</Karte>
+<Karte cardid="f4ecfd75-5875-4997-989d-5e0c7d90a80b" name="F&#228;hrtensucher" group="U" round="0" img=" " minamount="1" maxamount="1" position="11" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der F&#228;hrtensucher erwacht am Ende der Nacht und w&#228;hlt eine beliebige Person. Er erf&#228;hrt von dieser Person mit welcher Person sie in der Nacht interagiert hat.</description>
+</Karte>
+<Karte cardid="72fce2f3-15ab-4052-8fd9-7fedeb6fe2d7" name="M&#252;ller" group="B" round="-1" img=" " minamount="1" maxamount="1" position="12" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der M&#252;ller wird dem Polizisten als Mafiosi angezeigt, steht jedoch auf Seiten der B&#252;rger.</description>
+</Karte>
+<Karte cardid="37dccc93-23db-4f97-ae3c-66848536d727" name="Der Rachs&#252;chtige" group="B" round="-1" img=" " minamount="1" maxamount="1" position="13" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Der Rachs&#252;chtige kann bei seinem Tod einen beliebigen anderen Spieler mit in den Tod rei&#223;en.</description>
+</Karte>
+<Karte cardid="bd9960ff-7769-46eb-b42e-9fb8cf6877dc" name="Das unschuldige Kind" group="B" round="-1" img=" " minamount="1" maxamount="1" position="14" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">Das unschuldige Kind kann zu jeder Zeit im Spiel seine Identit&#228;t dem Dorf offenbaren. Den Zeitpunkt bestimmt das Kind selbst.</description>
+</Karte>
+<Karte cardid="c7b0e031-0bb2-4125-8f26-355ae4fd9d60" name="B&#252;rgerwehr" group="B" round="-1" img=" " minamount="1" maxamount="-1" position="15" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+<description lang="de">B&#252;rger haben keine F&#228;higkeiten in der Nachtphase.&lt;br/&gt;Sie nehmen lediglich an der t&#228;glichen Diskussion teil.</description>
+    </Karte>
+    <Karte cardid="c7b0e031-0bb2-4125-8f26-355ae4fd9d60" name="Saulus" group="B" round="-1" img=" " minamount="1" maxamount="-1" position="15" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+        <description lang="de">Wird Saulus in der Nacht getötet, so stirbt er nicht wirklich sondern spielt fortan die Rolle eines Bürgers.</description>
+</Karte>
+    <Karte cardid="c7b0e031-0bb2-4125-8f26-355ae4fd9d60" name="Judas" group="B" round="-1" img=" " minamount="1" maxamount="-1" position="15" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+        <description lang="de">Wird Saulus in der Nacht getötet, so stirbt er nicht wirklich sondern spielt fortan die Rolle eines Mafiosi.</description>
+    </Karte>
+    <Karte cardid="c7b0e031-0bb2-4125-8f26-355ae4fd9d60" name="Der Pate" group="M" round="-1" img=" " minamount="1" maxamount="-1" position="15" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+        <description lang="de">Der Pate ist ein normaler Mafiosi, wird allerdings dem Polizisten als Bürger angezeigt.</description>
+    </Karte>
+    <Karte cardid="c7b0e031-0bb2-4125-8f26-355ae4fd9d60" name="Der Usurpator" group="M" round="-1" img=" " minamount="1" maxamount="-1" position="15" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+        <description lang="de">Der Usurpator steht auf Seiten der Mafia, gewinnt allerdings nur wenn die Mafia gewinnt und der Pate eliminiert wurde.</description>
+    </Karte>
+    <Karte cardid="c7b0e031-0bb2-4125-8f26-355ae4fd9d60" name="Der ruhelose Seele" group="U" round="-1" img=" " minamount="1" maxamount="-1" position="15" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+        <description lang="de">Die ruhelose Seele sucht sich in der ersten Nacht ihre Gruppe aus. Wird die ruhelose Seele getötet, so kann sie für weitere x Runden an den Abstimmungen teilnehmen.</description>
+    </Karte>
+    <Karte cardid="c7b0e031-0bb2-4125-8f26-355ae4fd9d60" name="Der freundliche Nachbar" group="U" round="-1" img=" " minamount="1" maxamount="-1" position="15" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+        <description lang="de">Der freundliche Nachbar stellt sich jede Nacht jemand anderem vor.</description>
+    </Karte>
+    <Karte cardid="c7b0e031-0bb2-4125-8f26-355ae4fd9d60" name="Krankenschwester" group="B" round="-1" img=" " minamount="1" maxamount="-1" position="15" position2="-1" extra="0" fixeddeath="0" nopoints="false" calleveryone="false" winsalone="false" winningalive="2" winningdead="1" balance="0">
+        <description lang="de">Stirbt der Doktor, so wird die Krankenschwester zum neuen Doktor.</description>
+    </Karte>
+</gameset>
